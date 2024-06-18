@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Tempo de Viagem</h1>
+
+    <form action="f.php" method="post">
+        <div>
+            <label for="user">Quantos km:</label>
+            <input type="number" name="km" id="km" step="0.010">
+        </div>
+
+        <div>
+            <label for="user">Quantos km/h:</label>
+            <input type="number" name="kmh" id="kmh" step="0.010">
+        </div>
+
+        <div>
+            <label for="user">Quantos litros por km:</label>
+            <input type="number" name="kml" id="kml" step="0.010">
+        </div>
+        <div>
+            <button type="submit">
+                Enviar
+            </button>
+        </div>
+    </form>
+    
+</body>
+</html>
