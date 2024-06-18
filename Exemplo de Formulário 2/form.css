@@ -1,0 +1,77 @@
+/* Reset de estilos para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Estilos para o formulário */
+form {
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para as legendas */
+legend {
+    font-size: 1.2em;
+    color: #007bff;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Estilos para os inputs de radio e checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Estilos para os labels das checkboxes */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Estilos para os inputs de texto e select */
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Estilos específicos para o textarea */
+textarea {
+    height: 150px;
+}
+
+/* Estilos para o botão de enviar */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
