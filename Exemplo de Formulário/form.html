@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="form.php" method="post">
+        <div>
+            <label for="user">Username:</label>
+            <input type="text" name="user" id="user">
+
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha">
+        </div>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" id="cidade">
+            
+            <label for="estado">Estado:</label>
+            <select name="estado" id="estado">
+                <option value="São Paulo">SP</option>
+                <option value="Rio de Janeiro">RJ</option>
+                <option value="Minas Gerais">MG</option>
+            </select>
+        </div>
+        
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+        
+    </form>
+</body>
+</html>
