@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Formulário de Saudação</title>
+</head>
+<body>
+    <h2>Formulário de Saudação</h2>
+    <form action="bomdia.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+        
+        <label for="horario">Horário (HH:MM):</label>
+        <input type="text" id="horario" name="horario" pattern="([01]?[0-9]|2[0-3]):[0-5][0-9]" placeholder="HH:MM" required><br><br>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
